@@ -1,6 +1,7 @@
 library(shiny)
 library(shinyjs)
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
 
 loading_done <- function(null_test) {
     hide(id = "loading_page", anim = TRUE, animType = "slide")
